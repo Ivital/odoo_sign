@@ -25,3 +25,25 @@ msgstr "Проєкт"
 #: model_terms:ir.ui.view,arch_db:project_task_sign_oca.sign_oca_request_search_view
 msgid "Task"
 msgstr "Завдання"
+
+#. module: project_task_sign_oca
+#: model:ir.model.fields,field_description:project_task_sign_oca.field_res_company__project_task_sign_oca_template_id
+#: model:ir.model.fields,field_description:project_task_sign_oca.field_res_config_settings__project_task_sign_oca_template_id
+msgid "Project Task Sign Oca Template"
+msgstr "Шаблон Sign OCA завдання проєкту"
+
+#. module: project_task_sign_oca
+#: model_terms:ir.ui.view,arch_db:project_task_sign_oca.res_config_settings_view_form
+msgid "Sign Oca"
+msgstr "Підпис OCA"
+
+#. module: project_task_sign_oca
+#: model:ir.model.fields,field_description:project_task_sign_oca.field_project_task__sign_request_ids
+#: model_terms:ir.ui.view,arch_db:project_task_sign_oca.view_task_form2
+msgid "Sign Requests"
+msgstr "Запити на підпис"
+
+#. module: project_task_sign_oca
+#: model:ir.model.fields,field_description:project_task_sign_oca.field_project_task__sign_request_count
+msgid "Sign request count"
+msgstr "Кількість запитів на підпис"
