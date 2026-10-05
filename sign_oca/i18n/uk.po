@@ -1,0 +1,499 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 18.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2026-10-05 05:40+0000\n"
+"Last-Translator: Ivital <Ivital@users.noreply.github.com>\n"
+"Language-Team: Ukrainian\n"
+"Language: uk_UA\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+#. module: sign_oca
+#: model:ir.model.fields,field_description:sign_oca.field_sign_oca_request_log__access_token
+msgid "Access Token"
+msgstr "Токен доступу"
+
+#. module: sign_oca
+#: model:ir.model.fields,field_description:sign_oca.field_sign_oca_request_log__action
+#: model_terms:ir.ui.view,arch_db:sign_oca.report_signature_certificate_doc
+msgid "Action"
+msgstr "Дія"
+
+#. module: sign_oca
+#: model:ir.model.fields,field_description:sign_oca.field_sign_oca_request__active
+#: model:ir.model.fields,field_description:sign_oca.field_sign_oca_template__active
+msgid "Active"
+msgstr "Активний"
+
+#. module: sign_oca
+#: model:ir.model.fields,field_description:sign_oca.field_sign_oca_request__activity_ids
+#: model:ir.model.fields,field_description:sign_oca.field_sign_oca_request_signer__activity_ids
+msgid "Activities"
+msgstr "Дії"
+
+#. module: sign_oca
+#. odoo-python
+#: code:addons/sign_oca/controllers/main.py:0
+msgid "All"
+msgstr "Усі"
+
+#. module: sign_oca
+#: model_terms:ir.ui.view,arch_db:sign_oca.sign_oca_request_form_view
+#: model_terms:ir.ui.view,arch_db:sign_oca.sign_oca_request_search_view
+msgid "Archived"
+msgstr "Архівовано"
+
+#. module: sign_oca
+#: model:ir.model.fields,field_description:sign_oca.field_sign_oca_request__ask_location
+#: model:ir.model.fields,field_description:sign_oca.field_sign_oca_template__ask_location
+msgid "Ask Location"
+msgstr "Запитувати розташування"
+
+#. module: sign_oca
+#: model:ir.model.fields.selection,name:sign_oca.selection__sign_oca_request__state__3_cancel
+#: model_terms:ir.ui.view,arch_db:sign_oca.sign_oca_request_form_view
+msgid "Cancelled"
+msgstr "Скасовано"
+
+#. module: sign_oca
+#: model:ir.model.fields,field_description:sign_oca.field_sign_oca_request__company_id
+msgid "Company"
+msgstr "Компанія"
+
+#. module: sign_oca
+#: model:ir.model.fields.selection,name:sign_oca.selection__sign_oca_request_log__action__create
+msgid "Create"
+msgstr "Створити"
+
+#. module: sign_oca
+#: model:ir.model.fields,field_description:sign_oca.field_sign_oca_field__create_uid
+#: model:ir.model.fields,field_description:sign_oca.field_sign_oca_request__create_uid
+#: model:ir.model.fields,field_description:sign_oca.field_sign_oca_request_signer__create_uid
+#: model:ir.model.fields,field_description:sign_oca.field_sign_oca_role__create_uid
+#: model:ir.model.fields,field_description:sign_oca.field_sign_oca_template__create_uid
+#: model:ir.model.fields,field_description:sign_oca.field_sign_oca_template_generate__create_uid
+#: model:ir.model.fields,field_description:sign_oca.field_sign_oca_template_generate_multi__create_uid
+#: model:ir.model.fields,field_description:sign_oca.field_sign_oca_template_generate_signer__create_uid
+#: model:ir.model.fields,field_description:sign_oca.field_sign_oca_template_item__create_uid
+msgid "Created by"
+msgstr "Створив"
+
+#. module: sign_oca
+#: model:ir.model.fields,field_description:sign_oca.field_sign_oca_field__create_date
+#: model:ir.model.fields,field_description:sign_oca.field_sign_oca_request__create_date
+#: model:ir.model.fields,field_description:sign_oca.field_sign_oca_request_signer__create_date
+#: model:ir.model.fields,field_description:sign_oca.field_sign_oca_role__create_date
+#: model:ir.model.fields,field_description:sign_oca.field_sign_oca_template__create_date
+#: model:ir.model.fields,field_description:sign_oca.field_sign_oca_template_generate__create_date
+#: model:ir.model.fields,field_description:sign_oca.field_sign_oca_template_generate_multi__create_date
+#: model:ir.model.fields,field_description:sign_oca.field_sign_oca_template_generate_signer__create_date
+#: model:ir.model.fields,field_description:sign_oca.field_sign_oca_template_item__create_date
+msgid "Created on"
+msgstr "Створено"
+
+#. module: sign_oca
+#: model:ir.model.fields,field_description:sign_oca.field_sign_oca_request__data
+#: model:ir.model.fields,field_description:sign_oca.field_sign_oca_request_signer__data
+#: model:ir.model.fields,field_description:sign_oca.field_sign_oca_template__data
+msgid "Data"
+msgstr "Дані"
+
+#. module: sign_oca
+#: model:ir.model.fields,field_description:sign_oca.field_sign_oca_request_log__date
+msgid "Date"
+msgstr "Дата"
+
+#. module: sign_oca
+#: model:ir.model.fields.selection,name:sign_oca.selection__sign_oca_role__partner_selection_policy__default
+msgid "Default"
+msgstr "За замовчуванням"
+
+#. module: sign_oca
+#. odoo-javascript
+#: code:addons/sign_oca/static/src/components/sign_oca_configure/sign_oca_configure_field_dialog.xml:0
+msgid "Delete"
+msgstr "Видалити"
+
+#. module: sign_oca
+#: model_terms:ir.ui.view,arch_db:sign_oca.sign_oca_request_kanban_view
+#: model_terms:ir.ui.view,arch_db:sign_oca.sign_oca_request_signer_kanban_view
+msgid "Details"
+msgstr "Деталі"
+
+#. module: sign_oca
+#: model:ir.model.fields,field_description:sign_oca.field_sign_oca_field__display_name
+#: model:ir.model.fields,field_description:sign_oca.field_sign_oca_request__display_name
+#: model:ir.model.fields,field_description:sign_oca.field_sign_oca_request_log__display_name
+#: model:ir.model.fields,field_description:sign_oca.field_sign_oca_request_signer__display_name
+#: model:ir.model.fields,field_description:sign_oca.field_sign_oca_role__display_name
+#: model:ir.model.fields,field_description:sign_oca.field_sign_oca_template__display_name
+#: model:ir.model.fields,field_description:sign_oca.field_sign_oca_template_generate__display_name
+#: model:ir.model.fields,field_description:sign_oca.field_sign_oca_template_generate_multi__display_name
+#: model:ir.model.fields,field_description:sign_oca.field_sign_oca_template_generate_signer__display_name
+#: model:ir.model.fields,field_description:sign_oca.field_sign_oca_template_item__display_name
+msgid "Display Name"
+msgstr "Відображувана назва"
+
+#. module: sign_oca
+#: model:ir.model.fields,field_description:sign_oca.field_sign_oca_role__domain
+msgid "Domain"
+msgstr "Домен"
+
+#. module: sign_oca
+#: model_terms:ir.ui.view,arch_db:sign_oca.report_signature_certificate_doc
+msgid "Email"
+msgstr "Електронна пошта"
+
+#. module: sign_oca
+#: model:ir.model.fields.selection,name:sign_oca.selection__sign_oca_role__partner_selection_policy__empty
+msgid "Empty"
+msgstr "Порожній"
+
+#. module: sign_oca
+#: model:ir.model.fields,field_description:sign_oca.field_sign_oca_role__expression_partner
+#: model:ir.model.fields.selection,name:sign_oca.selection__sign_oca_role__partner_selection_policy__expression
+msgid "Expression"
+msgstr "Вираз"
+
+#. module: sign_oca
+#. odoo-javascript
+#: code:addons/sign_oca/static/src/components/sign_oca_configure/sign_oca_configure_field_dialog.xml:0
+#: model:ir.model.fields,field_description:sign_oca.field_sign_oca_template_item__field_id
+msgid "Field"
+msgstr "Поле"
+
+#. module: sign_oca
+#: model:ir.model.fields,field_description:sign_oca.field_sign_oca_field__field_type
+msgid "Field Type"
+msgstr "Тип поля"
+
+#. module: sign_oca
+#: model:ir.actions.act_window,name:sign_oca.sign_oca_field_act_window
+#: model:ir.ui.menu,name:sign_oca.sign_oca_field_menu
+#: model_terms:ir.ui.view,arch_db:sign_oca.sign_oca_template_form_view
+msgid "Fields"
+msgstr "Поля"
+
+#. module: sign_oca
+#: model:ir.model.fields,field_description:sign_oca.field_sign_oca_request__filename
+#: model:ir.model.fields,field_description:sign_oca.field_sign_oca_template__filename
+msgid "Filename"
+msgstr "Ім’я файлу"
+
+#. module: sign_oca
+#: model:ir.model.fields,field_description:sign_oca.field_sign_oca_request__message_follower_ids
+#: model:ir.model.fields,field_description:sign_oca.field_sign_oca_request_signer__message_follower_ids
+#: model:ir.model.fields,field_description:sign_oca.field_sign_oca_template__message_follower_ids
+msgid "Followers"
+msgstr "Підписники"
+
+#. module: sign_oca
+#: model:ir.actions.act_window,name:sign_oca.sign_oca_general_settings_act_window
+msgid "General Settings"
+msgstr "Загальні налаштування"
+
+#. module: sign_oca
+#: model:ir.ui.menu,name:sign_oca.sign_oca_general_settings_menu
+msgid "General settings"
+msgstr "Загальні налаштування"
+
+#. module: sign_oca
+#: model:ir.model.fields,field_description:sign_oca.field_sign_oca_request__has_message
+#: model:ir.model.fields,field_description:sign_oca.field_sign_oca_request_signer__has_message
+#: model:ir.model.fields,field_description:sign_oca.field_sign_oca_template__has_message
+msgid "Has Message"
+msgstr "Має повідомлення"
+
+#. module: sign_oca
+#: model:ir.model.fields,field_description:sign_oca.field_sign_oca_template_item__height
+msgid "Height"
+msgstr "Висота"
+
+#. module: sign_oca
+#: model:ir.model.fields,field_description:sign_oca.field_sign_oca_request__activity_exception_icon
+#: model:ir.model.fields,field_description:sign_oca.field_sign_oca_request_signer__activity_exception_icon
+msgid "Icon"
+msgstr "Іконка"
+
+#. module: sign_oca
+#: model:ir.model.fields,field_description:sign_oca.field_sign_oca_request__message_is_follower
+#: model:ir.model.fields,field_description:sign_oca.field_sign_oca_request_signer__message_is_follower
+#: model:ir.model.fields,field_description:sign_oca.field_sign_oca_template__message_is_follower
+msgid "Is Follower"
+msgstr "Є підписником"
+
+#. module: sign_oca
+#: model:ir.model.fields,field_description:sign_oca.field_sign_oca_template__item_ids
+msgid "Item"
+msgstr "Елемент"
+
+#. module: sign_oca
+#: model:ir.model.fields,field_description:sign_oca.field_sign_oca_request_signer__latitude
+msgid "Latitude"
+msgstr "Широта"
+
+#. module: sign_oca
+#. odoo-javascript
+#: code:addons/sign_oca/static/src/components/sign_oca_pdf_portal/sign_oca_pdf_portal.xml:0
+#: model_terms:ir.ui.view,arch_db:sign_oca.portal_sign_document_signed
+msgid "Logo"
+msgstr "Логотип"
+
+#. module: sign_oca
+#: model:ir.model.fields,field_description:sign_oca.field_sign_oca_request_signer__longitude
+msgid "Longitude"
+msgstr "Довгота"
+
+#. module: sign_oca
+#: model:ir.model.fields,field_description:sign_oca.field_sign_oca_template_generate__message
+#: model:ir.model.fields,field_description:sign_oca.field_sign_oca_template_generate_multi__message
+msgid "Message"
+msgstr "Повідомлення"
+
+#. module: sign_oca
+#: model:ir.model.fields,field_description:sign_oca.field_sign_oca_request__message_ids
+#: model:ir.model.fields,field_description:sign_oca.field_sign_oca_request_signer__message_ids
+#: model:ir.model.fields,field_description:sign_oca.field_sign_oca_template__message_ids
+msgid "Messages"
+msgstr "Повідомлення"
+
+#. module: sign_oca
+#: model:ir.model.fields,field_description:sign_oca.field_sign_oca_request_signer__model
+#: model:ir.model.fields,field_description:sign_oca.field_sign_oca_template__model_id
+#: model:ir.model.fields,field_description:sign_oca.field_sign_oca_template_generate_multi__model
+msgid "Model"
+msgstr "Модель"
+
+#. module: sign_oca
+#: model:ir.model.fields,field_description:sign_oca.field_sign_oca_template__model
+msgid "Model name"
+msgstr "Назва моделі"
+
+#. module: sign_oca
+#: model:ir.model.fields,field_description:sign_oca.field_sign_oca_field__name
+#: model:ir.model.fields,field_description:sign_oca.field_sign_oca_request__name
+#: model:ir.model.fields,field_description:sign_oca.field_sign_oca_request_signer__partner_name
+#: model:ir.model.fields,field_description:sign_oca.field_sign_oca_role__name
+#: model:ir.model.fields,field_description:sign_oca.field_sign_oca_template__name
+msgid "Name"
+msgstr "Назва"
+
+#. module: sign_oca
+#: model:ir.model.fields,field_description:sign_oca.field_sign_oca_request__next_item_id
+msgid "Next Item"
+msgstr "Наступний елемент"
+
+#. module: sign_oca
+#: model:ir.model.fields,field_description:sign_oca.field_sign_oca_request__record_ref
+msgid "Object"
+msgstr "Об’єкт"
+
+#. module: sign_oca
+#: model:ir.model.fields,field_description:sign_oca.field_sign_oca_template_item__page
+msgid "Page"
+msgstr "Сторінка"
+
+#. module: sign_oca
+#: model:ir.model.fields,field_description:sign_oca.field_sign_oca_request_log__partner_id
+#: model:ir.model.fields,field_description:sign_oca.field_sign_oca_request_signer__partner_id
+#: model:ir.model.fields,field_description:sign_oca.field_sign_oca_template_generate_signer__partner_id
+#: model_terms:ir.ui.view,arch_db:sign_oca.report_signature_certificate_doc
+msgid "Partner"
+msgstr "Партнер"
+
+#. module: sign_oca
+#. odoo-javascript
+#: code:addons/sign_oca/static/src/xml/systray.xml:0
+msgid "Pending"
+msgstr "Очікують"
+
+#. module: sign_oca
+#. odoo-javascript
+#: code:addons/sign_oca/static/src/components/sign_oca_configure/sign_oca_configure_field_dialog.xml:0
+#: model:ir.model.fields,field_description:sign_oca.field_sign_oca_template_item__placeholder
+msgid "Placeholder"
+msgstr "Заповнювач"
+
+#. module: sign_oca
+#: model:ir.model.fields,field_description:sign_oca.field_sign_oca_template_item__position_x
+msgid "Position X"
+msgstr "Позиція X"
+
+#. module: sign_oca
+#: model:ir.model.fields,field_description:sign_oca.field_sign_oca_template_item__position_y
+msgid "Position Y"
+msgstr "Позиція Y"
+
+#. module: sign_oca
+#: model:ir.model.fields,field_description:sign_oca.field_sign_oca_request__rating_ids
+#: model:ir.model.fields,field_description:sign_oca.field_sign_oca_request_signer__rating_ids
+#: model:ir.model.fields,field_description:sign_oca.field_sign_oca_template__rating_ids
+msgid "Ratings"
+msgstr "Рейтинги"
+
+#. module: sign_oca
+#: model:ir.model.fields,field_description:sign_oca.field_sign_oca_request_log__request_id
+#: model:ir.model.fields,field_description:sign_oca.field_sign_oca_request_signer__request_id
+#: model:ir.model.fields,field_description:sign_oca.field_sign_oca_template__request_ids
+msgid "Request"
+msgstr "Запит"
+
+#. module: sign_oca
+#. odoo-javascript
+#: code:addons/sign_oca/static/src/xml/systray.xml:0
+#: model:ir.ui.menu,name:sign_oca.sign_oca_request_menu
+#: model_terms:ir.ui.view,arch_db:sign_oca.sign_oca_template_form_view
+msgid "Requests"
+msgstr "Запити"
+
+#. module: sign_oca
+#. odoo-javascript
+#: code:addons/sign_oca/static/src/components/sign_oca_configure/sign_oca_configure_field_dialog.xml:0
+#: model:ir.model.fields,field_description:sign_oca.field_sign_oca_template_item__required
+msgid "Required"
+msgstr "Обов’язкове"
+
+#. module: sign_oca
+#: model:ir.model.fields,field_description:sign_oca.field_sign_oca_request__user_id
+msgid "Responsible"
+msgstr "Відповідальний"
+
+#. module: sign_oca
+#: model:ir.model.fields,field_description:sign_oca.field_sign_oca_request_signer__role_id
+#: model:ir.model.fields,field_description:sign_oca.field_sign_oca_template_generate_signer__role_id
+#: model:ir.model.fields,field_description:sign_oca.field_sign_oca_template_item__role_id
+#: model_terms:ir.ui.view,arch_db:sign_oca.report_signature_certificate_doc
+#: model_terms:ir.ui.view,arch_db:sign_oca.sign_oca_request_signer_search_view
+msgid "Role"
+msgstr "Роль"
+
+#. module: sign_oca
+#: model:ir.actions.act_window,name:sign_oca.sign_oca_role_act_window
+#: model:ir.ui.menu,name:sign_oca.sign_oca_role_menu
+msgid "Roles"
+msgstr "Ролі"
+
+#. module: sign_oca
+#: model:ir.model.fields.selection,name:sign_oca.selection__sign_oca_request__state__0_sent
+#: model_terms:ir.ui.view,arch_db:sign_oca.sign_oca_request_search_view
+msgid "Sent"
+msgstr "Надіслано"
+
+#. module: sign_oca
+#: model:ir.model.fields,field_description:sign_oca.field_sign_oca_request_signer__sequence_id
+msgid "Sequence"
+msgstr "Послідовність"
+
+#. module: sign_oca
+#: model:ir.ui.menu,name:sign_oca.sign_oca_settings_menu
+msgid "Settings"
+msgstr "Налаштування"
+
+#. module: sign_oca
+#. odoo-javascript
+#: code:addons/sign_oca/static/src/components/sign_oca_pdf/sign_oca_pdf.xml:0
+#: model:ir.model.fields.selection,name:sign_oca.selection__sign_oca_request_log__action__sign
+#: model:ir.module.category,name:sign_oca.sign_oca_module_category
+#: model:ir.ui.menu,name:sign_oca.sign_oca_root_menu
+#: model_terms:ir.ui.view,arch_db:sign_oca.sign_oca_request_form_view
+#: model_terms:ir.ui.view,arch_db:sign_oca.sign_oca_request_signer_form_view
+#: model_terms:ir.ui.view,arch_db:sign_oca.sign_oca_request_tree_view
+msgid "Sign"
+msgstr "Підпис"
+
+#. module: sign_oca
+#: model:ir.model.fields,field_description:sign_oca.field_sign_oca_template_generate__sign_now
+#: model_terms:ir.ui.view,arch_db:sign_oca.sign_oca_template_kanban_view
+msgid "Sign Now"
+msgstr "Підписати зараз"
+
+#. module: sign_oca
+#: model:ir.model.fields.selection,name:sign_oca.selection__sign_oca_field__field_type__signature
+msgid "Signature"
+msgstr "Підпис"
+
+#. module: sign_oca
+#. odoo-python
+#: code:addons/sign_oca/controllers/main.py:0
+#: model:ir.model.fields,field_description:sign_oca.field_sign_oca_request__signed
+#: model:ir.model.fields.selection,name:sign_oca.selection__sign_oca_request__state__2_signed
+#: model_terms:ir.ui.view,arch_db:sign_oca.sign_oca_request_search_view
+msgid "Signed"
+msgstr "Підписано"
+
+#. module: sign_oca
+#: model:ir.model.fields,field_description:sign_oca.field_sign_oca_request_signer__signed_on
+msgid "Signed On"
+msgstr "Підписано"
+
+#. module: sign_oca
+#: model:ir.model.fields,field_description:sign_oca.field_res_partner__signer_ids
+#: model:ir.model.fields,field_description:sign_oca.field_res_users__signer_ids
+#: model:ir.model.fields,field_description:sign_oca.field_sign_oca_request__signer_id
+#: model:ir.model.fields,field_description:sign_oca.field_sign_oca_request_log__signer_id
+#: model:ir.model.fields,field_description:sign_oca.field_sign_oca_template_generate__signer_ids
+#: model_terms:ir.ui.view,arch_db:sign_oca.report_signature_certificate_doc
+msgid "Signer"
+msgstr "Підписант"
+
+#. module: sign_oca
+#: model:ir.model.fields,field_description:sign_oca.field_res_partner__signer_count
+#: model:ir.model.fields,field_description:sign_oca.field_res_users__signer_count
+#: model:ir.model.fields,field_description:sign_oca.field_sign_oca_request__signer_count
+msgid "Signer Count"
+msgstr "Кількість підписантів"
+
+#. module: sign_oca
+#: model:ir.model.fields,field_description:sign_oca.field_sign_oca_request__signer_ids
+#: model_terms:ir.ui.view,arch_db:sign_oca.report_signature_certificate_doc
+#: model_terms:ir.ui.view,arch_db:sign_oca.sign_oca_request_tree_view
+msgid "Signers"
+msgstr "Підписанти"
+
+#. module: sign_oca
+#: model:ir.model.fields,field_description:sign_oca.field_sign_oca_request__state
+#: model_terms:ir.ui.view,arch_db:sign_oca.sign_oca_request_search_view
+#: model_terms:ir.ui.view,arch_db:sign_oca.sign_requests
+msgid "State"
+msgstr "Стан"
+
+#. module: sign_oca
+#: model:ir.model.fields,field_description:sign_oca.field_sign_oca_request__template_id
+#: model:ir.model.fields,field_description:sign_oca.field_sign_oca_template_generate__template_id
+#: model:ir.model.fields,field_description:sign_oca.field_sign_oca_template_generate_multi__template_id
+#: model:ir.model.fields,field_description:sign_oca.field_sign_oca_template_item__template_id
+#: model_terms:ir.ui.view,arch_db:sign_oca.sign_oca_request_kanban_view
+#: model_terms:ir.ui.view,arch_db:sign_oca.sign_oca_request_search_view
+msgid "Template"
+msgstr "Шаблон"
+
+#. module: sign_oca
+#: model:ir.actions.act_window,name:sign_oca.sign_oca_template_act_window
+#: model:ir.ui.menu,name:sign_oca.sign_oca_template_menu
+msgid "Templates"
+msgstr "Шаблони"
+
+#. module: sign_oca
+#: model:ir.model.fields.selection,name:sign_oca.selection__sign_oca_field__field_type__text
+msgid "Text"
+msgstr "Текст"
+
+#. module: sign_oca
+#: model:ir.model.fields,field_description:sign_oca.field_sign_oca_request__to_sign
+msgid "To Sign"
+msgstr "На підпис"
+
+#. module: sign_oca
+#: model:ir.model.fields,field_description:sign_oca.field_sign_oca_template_item__width
+msgid "Width"
+msgstr "Ширина"
+
+#. module: sign_oca
+#: model:ir.model.fields,field_description:sign_oca.field_sign_oca_template_generate_signer__wizard_id
+msgid "Wizard"
+msgstr "Майстер"

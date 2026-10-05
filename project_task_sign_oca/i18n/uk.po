@@ -12,3 +12,16 @@ msgstr ""
 #: model:ir.module.module,shortdesc:base.module_project_task_sign_oca
 msgid "Project Task Sign Oca"
 msgstr "Підпис завдання проєкту OCA"
+
+#. module: project_task_sign_oca
+#: model:ir.model.fields,field_description:project_task_sign_oca.field_sign_oca_request__project_id
+#: model_terms:ir.ui.view,arch_db:project_task_sign_oca.sign_oca_request_search_view
+msgid "Project"
+msgstr "Проєкт"
+
+#. module: project_task_sign_oca
+#: model:ir.model,name:project_task_sign_oca.model_project_task
+#: model:ir.model.fields,field_description:project_task_sign_oca.field_sign_oca_request__task_id
+#: model_terms:ir.ui.view,arch_db:project_task_sign_oca.sign_oca_request_search_view
+msgid "Task"
+msgstr "Завдання"
