@@ -1319,3 +1319,223 @@ msgstr ""
 #: code:addons/sign_oca/controllers/main.py:0
 msgid "sent"
 msgstr "надіслано"
+
+#. module: sign_oca
+#. odoo-python
+#: code:addons/sign_oca/models/sign_oca_request.py:0
+msgid "%(name)s (%(email)s) has sent the signed document."
+msgstr "%(name)s (%(email)s) надіслав(ла) підписаний документ."
+
+#. module: sign_oca
+#. odoo-python
+#: code:addons/sign_oca/models/sign_oca_request.py:0
+msgid ""
+"An error occurred when computing the inalterability. Impossible to get the "
+"unique previous signer information."
+msgstr ""
+"Під час обчислення незмінності сталася помилка. Неможливо отримати "
+"інформацію про унікального попереднього підписанта."
+
+#. module: sign_oca
+#. odoo-javascript
+#: code:addons/sign_oca/static/src/elements/elements.xml:0
+msgid ""
+"By clicking Adopt and Sign, I agree that the chosen signature/initials will "
+"be a valid electronic representation of my hand-written signature/initials "
+"for all purposes when it is used on documents, including legally binding "
+"contracts."
+msgstr ""
+"Натискаючи «Прийняти та підписати», я погоджуюся, що вибраний "
+"підпис/ініціали є дійсним електронним представленням мого власноручного "
+"підпису/ініціалів для всіх цілей, коли вони використовуються в документах, "
+"зокрема в юридично обов’язкових договорах."
+
+#. module: sign_oca
+#. odoo-javascript
+#: code:addons/sign_oca/static/src/components/sign_oca_pdf_portal/sign_oca_navigator.esm.js:0
+msgid "Click on Validate Button"
+msgstr "Натисніть кнопку «Підтвердити»"
+
+#. module: sign_oca
+#. odoo-javascript
+#: code:addons/sign_oca/static/src/components/sign_oca_configure/sign_oca_configure.xml:0
+msgid "Click on the field that you want to add"
+msgstr "Натисніть на поле, яке потрібно додати"
+
+#. module: sign_oca
+#. odoo-javascript
+#: code:addons/sign_oca/static/src/components/sign_oca_pdf_portal/sign_oca_navigator.esm.js:0
+msgid "Click to start"
+msgstr "Натисніть, щоб почати"
+
+#. module: sign_oca
+#. odoo-javascript
+#: code:addons/sign_oca/static/src/components/sign_oca_configure/sign_oca_configure.xml:0
+msgid "Data is saved automatically when editing"
+msgstr "Під час редагування дані зберігаються автоматично"
+
+#. module: sign_oca
+#. odoo-javascript
+#: code:addons/sign_oca/static/src/components/sign_oca_configure/sign_oca_configure.xml:0
+msgid "Data is saved automatically when editing."
+msgstr "Під час редагування дані зберігаються автоматично."
+
+#. module: sign_oca
+#. odoo-javascript
+#: code:addons/sign_oca/static/src/js/systray_service.esm.js:0
+msgid "Documents to be Signed"
+msgstr "Документи для підпису"
+
+#. module: sign_oca
+#. odoo-python
+#: code:addons/sign_oca/models/sign_oca_request.py:0
+msgid "Field %s is not filled"
+msgstr "Поле %s не заповнено"
+
+#. module: sign_oca
+#. odoo-javascript
+#: code:addons/sign_oca/static/src/components/sign_oca_configure/sign_oca_configure_field_dialog.xml:0
+msgid "Filled by"
+msgstr "Заповнено"
+
+#. module: sign_oca
+#. odoo-javascript
+#: code:addons/sign_oca/static/src/components/sign_oca_configure/sign_oca_configure.xml:0
+msgid ""
+"If you do a click over a field, you will be able to change the default "
+"configurations of the field"
+msgstr "Якщо натиснути на поле, можна змінити його типові налаштування"
+
+#. module: sign_oca
+#. odoo-javascript
+#: code:addons/sign_oca/static/src/components/sign_oca_configure/sign_oca_configure.xml:0
+msgid ""
+"In order to add a new field, do a right click over the PDF page. You will be"
+" able to select the field that you will import"
+msgstr ""
+"Щоб додати нове поле, клацніть правою кнопкою на PDF-сторінці. Після цього "
+"можна вибрати поле для імпорту"
+
+#. module: sign_oca
+#. odoo-javascript
+#: code:addons/sign_oca/static/src/components/sign_oca_configure/sign_oca_configure.xml:0
+msgid ""
+"In order to add a new field, do a right click over the PDF page. You will be able to select the field that you will import.\n"
+"                Then, you can move and resize the fields over the PDF page using the move icons.\n"
+"                If you do a click over a field, you will be able to change the default configurations of the field"
+msgstr ""
+"Щоб додати нове поле, клацніть правою кнопкою миші на сторінці PDF. Ви зможете вибрати поле для імпорту.\n"
+"                Потім поля можна переміщувати й змінювати їхній розмір на сторінці PDF за допомогою значків переміщення.\n"
+"                Якщо клацнути поле, можна змінити його налаштування за замовчуванням."
+
+#. module: sign_oca
+#. odoo-javascript
+#: code:addons/sign_oca/static/src/components/sign_oca_pdf/sign_oca_pdf.xml:0
+msgid "Main actions"
+msgstr "Основні дії"
+
+#. module: sign_oca
+#. odoo-javascript
+#: code:addons/sign_oca/static/src/components/sign_oca_pdf_common/sign_oca_pdf_common.esm.js:0
+msgid "Need a valid PDF to add signature fields !"
+msgstr "Потрібен дійсний PDF для додавання полів підпису!"
+
+#. module: sign_oca
+#. odoo-python
+#: code:addons/sign_oca/models/sign_oca_request.py:0
+msgid "New document to sign"
+msgstr "Новий документ для підпису"
+
+#. module: sign_oca
+#. odoo-javascript
+#: code:addons/sign_oca/static/src/xml/systray.xml:0
+msgid "No requests to sign."
+msgstr "Немає запитів на підпис."
+
+#. module: sign_oca
+#. odoo-python
+#: code:addons/sign_oca/controllers/main.py:0
+msgid "Oldest"
+msgstr "Найстаріші"
+
+#. module: sign_oca
+#. odoo-javascript
+#: code:addons/sign_oca/static/src/components/sign_oca_pdf_portal/sign_oca_pdf_portal.xml:0
+msgid "Please Review And Act On This Document"
+msgstr "Будь ласка, перегляньте цей документ і виконайте дію"
+
+#. module: sign_oca
+#. odoo-python
+#: code:addons/sign_oca/models/sign_oca_request.py:0
+msgid "Request cannot be signed"
+msgstr "Запит не можна підписати"
+
+#. module: sign_oca
+#. odoo-python
+#: code:addons/sign_oca/controllers/main.py:0
+msgid "Sent to Signed"
+msgstr "Надіслано → Підписано"
+
+#. module: sign_oca
+#. odoo-javascript
+#: code:addons/sign_oca/static/src/js/sign_oca.esm.js:0
+msgid "Sign from template"
+msgstr "Підписати з шаблону"
+
+#. module: sign_oca
+#. odoo-javascript
+#: code:addons/sign_oca/static/src/components/sign_oca_configure/sign_oca_configure.xml:0
+msgid "Signature configuration"
+msgstr "Налаштування підпису"
+
+#. module: sign_oca
+#. odoo-python
+#: code:addons/sign_oca/models/sign_oca_request.py:0
+msgid "Signed document"
+msgstr "Підписаний документ"
+
+#. module: sign_oca
+#. odoo-python
+#: code:addons/sign_oca/controllers/main.py:0
+msgid "Signed to Sent"
+msgstr "Підписано → Надіслано"
+
+#. module: sign_oca
+#. odoo-javascript
+#: code:addons/sign_oca/static/src/components/sign_oca_configure/sign_oca_configure.xml:0
+msgid ""
+"Then, you can move and resize the fields over the PDF page using the move "
+"icons."
+msgstr ""
+"Після цього можна переміщувати й змінювати розмір полів на PDF-сторінці за "
+"допомогою значків переміщення."
+
+#. module: sign_oca
+#. odoo-python
+#: code:addons/sign_oca/models/sign_oca_request.py:0
+msgid "There are no signers, please fill them before configuring it"
+msgstr "Немає підписантів, заповніть їх перед налаштуванням"
+
+#. module: sign_oca
+#. odoo-python
+#: code:addons/sign_oca/models/sign_oca_request.py:0
+msgid "Users %s has already signed the document"
+msgstr "Користувачі %s вже підписали документ"
+
+#. module: sign_oca
+#. odoo-javascript
+#: code:addons/sign_oca/static/src/components/sign_oca_pdf_portal/sign_oca_pdf_portal.xml:0
+msgid "Validate & Send document"
+msgstr "Підтвердити й надіслати документ"
+
+#. module: sign_oca
+#. odoo-python
+#: code:addons/sign_oca/models/sign_oca_request.py:0
+msgid "You are not allowed to sign this document."
+msgstr "Вам не дозволено підписувати цей документ."
+
+#. module: sign_oca
+#. odoo-python
+#: code:addons/sign_oca/models/sign_oca_request.py:0
+msgid "You can only configure requests in draft state"
+msgstr "Налаштовувати можна лише запити у стані чернетки"

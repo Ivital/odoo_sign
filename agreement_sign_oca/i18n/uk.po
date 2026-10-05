@@ -54,3 +54,60 @@ msgstr "Створити та надіслати запит підпису дл�
 #: model_terms:ir.ui.view,arch_db:agreement_sign_oca.agreement_sign_view_form
 msgid "Request Signature"
 msgstr "Запит підпису"
+
+#. module: agreement_sign_oca
+#. odoo-python
+#: code:addons/agreement_sign_oca/models/agreement.py:0
+msgid "Please create a user for their company signatory person"
+msgstr "Створіть користувача для особи, що підписує від імені компанії"
+
+#. module: agreement_sign_oca
+#. odoo-python
+#: code:addons/agreement_sign_oca/models/agreement.py:0
+msgid ""
+"Please set a Company Primary Contact in order to set the signatory person of"
+" the company in this document"
+msgstr ""
+"Вкажіть основний контакт компанії, щоб установити особу, яка підписує від "
+"імені компанії в цьому документі"
+
+#. module: agreement_sign_oca
+#. odoo-python
+#: code:addons/agreement_sign_oca/models/agreement.py:0
+msgid ""
+"Please set a Primary Contact in order to set the signatory person of the "
+"counterpart in this document"
+msgstr ""
+"Вкажіть основний контакт, щоб встановити підписанта контрагента в цьому "
+"документі"
+
+#. module: agreement_sign_oca
+#. odoo-python
+#: code:addons/agreement_sign_oca/models/agreement.py:0
+msgid ""
+"The 'Agreement Company Signatory Person' role for the signature was not "
+"found. Please update 'agreement_sign_oca' module."
+msgstr ""
+"Роль «Підписант компанії за угодою» не знайдено. Оновіть модуль "
+"'agreement_sign_oca'."
+
+#. module: agreement_sign_oca
+#. odoo-python
+#: code:addons/agreement_sign_oca/models/agreement.py:0
+msgid ""
+"The 'Customer' role for the signature was not found. Please update "
+"'agreement' module."
+msgstr "Роль «Клієнт» для підпису не знайдено. Оновіть модуль 'agreement'."
+
+#. module: agreement_sign_oca
+#. odoo-python
+#: code:addons/agreement_sign_oca/models/agreement.py:0
+msgid "The agreement must have an assigned contact (counterparty)."
+msgstr "Угода повинна мати призначений контакт (контрагента)."
+
+#. module: agreement_sign_oca
+#. odoo-python
+#: code:addons/agreement_sign_oca/models/agreement.py:0
+msgid ""
+"The agreement's counterparty contact does not have an email configured."
+msgstr "Контакт контрагента угоди не має налаштованої електронної адреси."
