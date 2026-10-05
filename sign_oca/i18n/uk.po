@@ -959,3 +959,281 @@ msgstr "Повідомлення вебсайту"
 #: model_terms:ir.ui.view,arch_db:sign_oca.portal_sign_document_signed
 msgid "document"
 msgstr "документ"
+
+#. module: sign_oca
+#: model:ir.actions.report,print_report_name:sign_oca.action_report_signature_certificate
+msgid "'Signature Certificate'"
+msgstr "«Сертифікат підпису»"
+
+#. module: sign_oca
+#: model_terms:ir.ui.view,arch_db:sign_oca.sign_oca_template_mail
+msgid ""
+")\n"
+"                has requested your signature on a document."
+msgstr ""
+")\n"
+"                запросив(ла) ваш підпис на документі."
+
+#. module: sign_oca
+#: model_terms:ir.ui.view,arch_db:sign_oca.sign_requests
+msgid ""
+"<span class=\"d-none d-md-inline\">Sign Request #</span>\n"
+"                            <span class=\"d-block d-md-none\">Ref.</span>"
+msgstr ""
+"<span class=\"d-none d-md-inline\">Запит на підпис №</span>\n"
+"                            <span class=\"d-block d-md-none\">Посил.</span>"
+
+#. module: sign_oca
+#: model_terms:ir.ui.view,arch_db:sign_oca.report_signature_certificate_doc
+msgid "<span class=\"fw-bold\">Created by:</span>"
+msgstr "<span class=\"fw-bold\">Створено:</span>"
+
+#. module: sign_oca
+#: model_terms:ir.ui.view,arch_db:sign_oca.report_signature_certificate_doc
+msgid "<span class=\"fw-bold\">Created on:</span>"
+msgstr "<span class=\"fw-bold\">Дата створення:</span>"
+
+#. module: sign_oca
+#: model_terms:ir.ui.view,arch_db:sign_oca.report_signature_certificate_doc
+msgid "<span class=\"fw-bold\">Current hash:</span>"
+msgstr "<span class=\"fw-bold\">Поточний хеш:</span>"
+
+#. module: sign_oca
+#: model_terms:ir.ui.view,arch_db:sign_oca.report_signature_certificate_doc
+msgid "<span class=\"fw-bold\">Document ID:</span>"
+msgstr "<span class=\"fw-bold\">ID документа:</span>"
+
+#. module: sign_oca
+#: model_terms:ir.ui.view,arch_db:sign_oca.report_signature_certificate_doc
+msgid "<span class=\"fw-bold\">Print date:</span>"
+msgstr "<span class=\"fw-bold\">Дата друку:</span>"
+
+#. module: sign_oca
+#: model_terms:ir.ui.view,arch_db:sign_oca.report_signature_certificate_doc
+msgid "<span class=\"fw-bold\">Related record:</span>"
+msgstr "<span class=\"fw-bold\">Пов’язаний запис:</span>"
+
+#. module: sign_oca
+#: model_terms:ir.ui.view,arch_db:sign_oca.report_signature_certificate_doc
+msgid "<span class=\"fw-bold\">Responsible:</span>"
+msgstr "<span class=\"fw-bold\">Відповідальний:</span>"
+
+#. module: sign_oca
+#: model_terms:ir.ui.view,arch_db:sign_oca.report_signature_certificate_doc
+msgid "<span class=\"fw-bold\">Signature filename:</span>"
+msgstr "<span class=\"fw-bold\">Ім’я файлу підпису:</span>"
+
+#. module: sign_oca
+#: model_terms:ir.ui.view,arch_db:sign_oca.report_signature_certificate_doc
+msgid "<span class=\"fw-bold\">Signers:</span>"
+msgstr "<span class=\"fw-bold\">Підписанти:</span>"
+
+#. module: sign_oca
+#: model_terms:ir.ui.view,arch_db:sign_oca.sign_oca_request_form_view
+msgid "<span class=\"o_stat_text\"> Signed</span>"
+msgstr "<span class=\"o_stat_text\"> Підписано</span>"
+
+#. module: sign_oca
+#: model_terms:ir.ui.view,arch_db:sign_oca.report_signature_certificate_doc
+msgid "<span class=\"text-muted\">Inalterability hash:</span>"
+msgstr "<span class=\"text-muted\">Хеш незмінності:</span>"
+
+#. module: sign_oca
+#: model_terms:ir.ui.view,arch_db:sign_oca.report_signature_certificate_doc
+msgid "<span class=\"text-muted\">Not available</span>"
+msgstr "<span class=\"text-muted\">Недоступно</span>"
+
+#. module: sign_oca
+#: model_terms:ir.ui.view,arch_db:sign_oca.portal_my_home_menu_sign
+msgid "<span>Sign Requests</span>"
+msgstr "<span>Запити на підпис</span>"
+
+#. module: sign_oca
+#: model_terms:ir.ui.view,arch_db:sign_oca.report_signature_certificate_doc
+msgid "<span>remaining</span>"
+msgstr "<span>залишилось</span>"
+
+#. module: sign_oca
+#: model_terms:ir.ui.view,arch_db:sign_oca.report_signature_certificate_doc
+msgid "<span>signed,</span>"
+msgstr "<span>підписано,</span>"
+
+#. module: sign_oca
+#: model_terms:ir.ui.view,arch_db:sign_oca.report_signature_certificate_doc
+msgid "<span>signers →</span>"
+msgstr "<span>підписанти →</span>"
+
+#. module: sign_oca
+#: model_terms:ir.ui.view,arch_db:sign_oca.sign_oca_template_mail
+msgid ""
+"<strong>Warning</strong> do not forward this email to other people!<br/>\n"
+"                    They will be able to access this document and sign it as yourself.<br/>"
+msgstr ""
+"<strong>Попередження:</strong> не пересилайте цей лист іншим людям!<br/>\n"
+"                    Вони зможуть отримати доступ до цього документа й підписати його від вашого імені.<br/>"
+
+#. module: sign_oca
+#: model:res.groups,name:sign_oca.sign_oca_group_admin
+msgid "Administrator"
+msgstr "Адміністратор"
+
+#. module: sign_oca
+#: model_terms:ir.ui.view,arch_db:sign_oca.portal_sign_document_signed
+msgid ""
+"As soon as all signers have signed the document, you will receive an email "
+"with the full document"
+msgstr ""
+"Щойно всі підписанти підпишуть документ, ви отримаєте електронний лист із "
+"повним документом"
+
+#. module: sign_oca
+#: model:ir.model.fields,help:sign_oca.field_sign_oca_request_signer__access_url
+msgid "Customer Portal URL"
+msgstr "URL порталу клієнта"
+
+#. module: sign_oca
+#: model_terms:ir.ui.view,arch_db:sign_oca.report_signature_certificate_doc
+msgid "Document Information"
+msgstr "Інформація про документ"
+
+#. module: sign_oca
+#: model:ir.model.fields,help:sign_oca.field_sign_oca_request__activity_type_icon
+#: model:ir.model.fields,help:sign_oca.field_sign_oca_request_signer__activity_type_icon
+msgid "Font awesome icon e.g. fa-tasks"
+msgstr "Піктограма Font Awesome, наприклад fa-tasks"
+
+#. module: sign_oca
+#: model:ir.model.fields,help:sign_oca.field_sign_oca_request__activity_exception_icon
+#: model:ir.model.fields,help:sign_oca.field_sign_oca_request_signer__activity_exception_icon
+msgid "Icon to indicate an exception activity."
+msgstr "Піктограма для позначення дії-винятку."
+
+#. module: sign_oca
+#: model:ir.model.fields,help:sign_oca.field_sign_oca_request__message_needaction
+#: model:ir.model.fields,help:sign_oca.field_sign_oca_request_signer__message_needaction
+#: model:ir.model.fields,help:sign_oca.field_sign_oca_template__message_needaction
+msgid "If checked, new messages require your attention."
+msgstr "Якщо позначено, нові повідомлення потребують вашої уваги."
+
+#. module: sign_oca
+#: model:ir.model.fields,help:sign_oca.field_sign_oca_request__message_has_error
+#: model:ir.model.fields,help:sign_oca.field_sign_oca_request_signer__message_has_error
+#: model:ir.model.fields,help:sign_oca.field_sign_oca_template__message_has_error
+msgid "If checked, some messages have a delivery error."
+msgstr "Якщо позначено, деякі повідомлення мають помилку доставки."
+
+#. module: sign_oca
+#: model:ir.model.fields,field_description:sign_oca.field_sign_oca_request_signer__inalterable_hash
+msgid "Inalterability Hash"
+msgstr "Хеш незмінності"
+
+#. module: sign_oca
+#: model:ir.model.fields,field_description:sign_oca.field_sign_oca_request_signer__secure_sequence_number
+msgid "Inalteralbility No Gap Sequence #"
+msgstr "Незмінність: номер послідовності без розривів"
+
+#. module: sign_oca
+#: model:ir.model.fields,field_description:sign_oca.field_sign_oca_request_signer__is_allow_signature
+msgid "Is Allow Signature"
+msgstr "Дозволено підпис"
+
+#. module: sign_oca
+#: model:ir.model.fields,help:sign_oca.field_sign_oca_request__message_needaction_counter
+#: model:ir.model.fields,help:sign_oca.field_sign_oca_request_signer__message_needaction_counter
+#: model:ir.model.fields,help:sign_oca.field_sign_oca_template__message_needaction_counter
+msgid "Number of messages requiring action"
+msgstr "Кількість повідомлень, що потребують дії"
+
+#. module: sign_oca
+#: model:ir.model.fields,help:sign_oca.field_sign_oca_request__message_has_error_counter
+#: model:ir.model.fields,help:sign_oca.field_sign_oca_request_signer__message_has_error_counter
+#: model:ir.model.fields,help:sign_oca.field_sign_oca_template__message_has_error_counter
+msgid "Number of messages with delivery error"
+msgstr "Кількість повідомлень із помилкою доставки"
+
+#. module: sign_oca
+#: model:ir.model.fields,field_description:sign_oca.field_sign_oca_role__partner_selection_policy
+msgid "Partner Selection Policy"
+msgstr "Політика вибору контрагента"
+
+#. module: sign_oca
+#: model:ir.actions.act_window,name:sign_oca.sign_oca_template_generate_multi_act_window
+msgid "Sign Oca Template Generate Multi"
+msgstr "Згенерувати кілька шаблонів Sign OCA"
+
+#. module: sign_oca
+#: model:ir.actions.act_window,name:sign_oca.sign_oca_request_signer_act_window
+msgid "Sign Request Signers"
+msgstr "Підписанти запиту на підпис"
+
+#. module: sign_oca
+#: model:ir.model.fields,help:sign_oca.field_sign_oca_request__activity_state
+#: model:ir.model.fields,help:sign_oca.field_sign_oca_request_signer__activity_state
+msgid ""
+"Status based on activities\n"
+"Overdue: Due date is already passed\n"
+"Today: Activity date is today\n"
+"Planned: Future activities."
+msgstr ""
+"Стан на основі дій\n"
+"Прострочено: строк уже минув\n"
+"Сьогодні: дата дії — сьогодні\n"
+"Заплановано: майбутні дії."
+
+#. module: sign_oca
+#: model_terms:ir.ui.view,arch_db:sign_oca.portal_sign_document_signed
+msgid "Thanks for signing"
+msgstr "Дякуємо за підпис"
+
+#. module: sign_oca
+#: model_terms:ir.ui.view,arch_db:sign_oca.portal_sign_document_signed
+msgid "The document has been cancelled"
+msgstr "Документ скасовано"
+
+#. module: sign_oca
+#: model_terms:ir.ui.view,arch_db:sign_oca.sign_requests
+msgid "There are currently no sign requests for your account."
+msgstr "Наразі у вашому обліковому записі немає запитів на підпис."
+
+#. module: sign_oca
+#: model:ir.model.fields,help:sign_oca.field_sign_oca_request__activity_exception_decoration
+#: model:ir.model.fields,help:sign_oca.field_sign_oca_request_signer__activity_exception_decoration
+msgid "Type of the exception activity on record."
+msgstr "Тип дії-винятку для запису."
+
+#. module: sign_oca
+#: model:res.groups,name:sign_oca.sign_oca_group_manager
+msgid "User: All Documents"
+msgstr "Користувач: усі документи"
+
+#. module: sign_oca
+#: model:res.groups,name:sign_oca.sign_oca_group_user
+msgid "User: Own Documents Only"
+msgstr "Користувач: лише власні документи"
+
+#. module: sign_oca
+#: model_terms:ir.ui.view,arch_db:sign_oca.portal_my_home
+msgid "View, or sign documents"
+msgstr "Переглянути або підписати документи"
+
+#. module: sign_oca
+#: model:ir.model.fields,help:sign_oca.field_sign_oca_request__website_message_ids
+#: model:ir.model.fields,help:sign_oca.field_sign_oca_request_signer__website_message_ids
+#: model:ir.model.fields,help:sign_oca.field_sign_oca_template__website_message_ids
+msgid "Website communication history"
+msgstr "Історія комунікації через вебсайт"
+
+#. module: sign_oca
+#: model_terms:ir.ui.view,arch_db:sign_oca.portal_sign_document_signed
+msgid ""
+"You should have received an email with the final document.<br/>\n"
+"                            Check on your mailbox."
+msgstr ""
+"Ви мали отримати лист із фінальним документом.<br/>\n"
+"                            Перевірте свою поштову скриньку."
+
+#. module: sign_oca
+#: model_terms:ir.ui.view,arch_db:sign_oca.sign_oca_request_form_view
+msgid ""
+"You will cancel the request and all the accesses. Are you sure about it?"
+msgstr "Ви скасуєте запит і всі доступи. Ви впевнені?"

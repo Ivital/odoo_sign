@@ -44,3 +44,13 @@ msgstr "Запити на підпис"
 #: model:ir.model.fields,field_description:agreement_sign_oca.field_res_config_settings__agreement_sign_oca_signed_stage_id
 msgid "Signed Agreements Stage"
 msgstr "Етап підписаних угод"
+
+#. module: agreement_sign_oca
+#: model_terms:ir.ui.view,arch_db:agreement_sign_oca.agreement_sign_view_form
+msgid "Create adn sent signature request for this agreement."
+msgstr "Створити та надіслати запит підпису для цієї угоди."
+
+#. module: agreement_sign_oca
+#: model_terms:ir.ui.view,arch_db:agreement_sign_oca.agreement_sign_view_form
+msgid "Request Signature"
+msgstr "Запит підпису"

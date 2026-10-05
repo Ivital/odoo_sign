@@ -47,3 +47,11 @@ msgstr "Запити на підпис"
 #: model:ir.model.fields,field_description:project_task_sign_oca.field_project_task__sign_request_count
 msgid "Sign request count"
 msgstr "Кількість запитів на підпис"
+
+#. module: project_task_sign_oca
+#: model_terms:ir.ui.view,arch_db:project_task_sign_oca.res_config_settings_view_form
+msgid ""
+"Define a template to enable automatic sign requests for the task customer"
+msgstr ""
+"Визначити шаблон для автоматичного створення запитів на підпис для клієнта "
+"завдання"
