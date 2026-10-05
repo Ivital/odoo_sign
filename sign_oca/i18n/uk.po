@@ -1237,3 +1237,85 @@ msgstr ""
 msgid ""
 "You will cancel the request and all the accesses. Are you sure about it?"
 msgstr "Ви скасуєте запит і всі доступи. Ви впевнені?"
+
+#. module: sign_oca
+#: model:ir.model.fields,help:sign_oca.field_sign_oca_role__expression_partner
+msgid "Example: {{object.partner_id.id}}"
+msgstr "Приклад: {{object.partner_id.id}}"
+
+#. module: sign_oca
+#: model:ir.model,name:sign_oca.model_sign_oca_template_generate
+msgid "Generate a signature request"
+msgstr "Створити запит на підпис"
+
+#. module: sign_oca
+#: model:ir.model,name:sign_oca.model_sign_oca_template_generate_multi
+msgid "Generate signature requests"
+msgstr "Створити запити на підпис"
+
+#. module: sign_oca
+#: model:ir.model,name:sign_oca.model_sign_oca_request_log
+msgid "Log access and edition on requests"
+msgstr "Журнал доступу та редагування запитів"
+
+#. module: sign_oca
+#. odoo-python
+#: code:addons/sign_oca/controllers/main.py:0
+msgid "Newest"
+msgstr "Найновіші"
+
+#. module: sign_oca
+#: model:ir.model,name:sign_oca.model_sign_oca_template
+msgid "Sign Oca Template"
+msgstr "Шаблон Sign OCA"
+
+#. module: sign_oca
+#: model:ir.model,name:sign_oca.model_sign_oca_template_item
+msgid "Sign Oca Template Item"
+msgstr "Елемент шаблону Sign OCA"
+
+#. module: sign_oca
+#: model:ir.model,name:sign_oca.model_sign_oca_request
+msgid "Sign Request"
+msgstr "Запит на підпис"
+
+#. module: sign_oca
+#: model:ir.model,name:sign_oca.model_sign_oca_request_signer
+msgid "Sign Request Value"
+msgstr "Значення запиту на підпис"
+
+#. module: sign_oca
+#: model:ir.model,name:sign_oca.model_sign_oca_role
+msgid "Sign Role"
+msgstr "Роль підпису"
+
+#. module: sign_oca
+#: model:ir.model,name:sign_oca.model_sign_oca_field
+msgid "Signature Field Type"
+msgstr "Тип поля підпису"
+
+#. module: sign_oca
+#: model:ir.model,name:sign_oca.model_sign_oca_template_generate_signer
+msgid "Signature request signers"
+msgstr "Підписанти запиту на підпис"
+
+#. module: sign_oca
+#: model:ir.model.fields,help:sign_oca.field_sign_oca_request__signer_id
+msgid "The signer related to the active user."
+msgstr "Підписант, пов’язаний з активним користувачем."
+
+#. module: sign_oca
+#: model:ir.model.fields,help:sign_oca.field_sign_oca_role__partner_selection_policy
+msgid ""
+"This field is used to define how the partner will be calculated in the "
+"different roles of a request. This field will be used when the 'Sign from "
+"Template' action is triggered."
+msgstr ""
+"Це поле визначає, як обчислюватиметься партнер для різних ролей запиту. Воно"
+" використовуватиметься під час запуску дії «Підписати з шаблону»."
+
+#. module: sign_oca
+#. odoo-python
+#: code:addons/sign_oca/controllers/main.py:0
+msgid "sent"
+msgstr "надіслано"
